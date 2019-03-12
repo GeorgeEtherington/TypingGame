@@ -4,10 +4,16 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
 import typingGame.LevelGenerator.LevelGenerator;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class GameScreenController {
 
+    private static int interval;
+    private static Timer timer;
     public TextField inputBox;
     public TextField levelBox;
+    public TextField timerTextbox;
     private int difficultyLevel;
     private int round = 1;
     private  LevelGenerator generator = new LevelGenerator();
@@ -18,7 +24,6 @@ public class GameScreenController {
     }
 
     public void submitInput(ActionEvent actionEvent) {
-        //stopTimer();
         checkInput();
 
         if (round > difficultyLevel + 2) {
@@ -28,6 +33,8 @@ public class GameScreenController {
         }
             inputBox.setText("");
             setLevel();
+            cancelTimer();
+            startTimer();
         }
 
 
@@ -45,6 +52,33 @@ public class GameScreenController {
 
     public void startGame(ActionEvent actionEvent) {
         difficultyLevel = 1;
-       setLevel();
+        setLevel();
+        startTimer();
+
+    }
+    public int startTimer() {
+
+        int delay = 1000;
+        int period = 1000;
+        timer = new Timer();
+        interval = Integer.parseInt("10");
+        System.out.println("10");
+        timer.scheduleAtFixedRate(new TimerTask() {
+            public void run() {
+                timerTextbox.setText(String.valueOf(setInterval()));
+            }
+        }, delay, period);
+        return interval;
+    }
+
+    private  final int setInterval() {
+        if (interval == 0)
+            cancelTimer();
+        return --interval;
+    }
+
+    public void cancelTimer(){
+        timer.cancel();
     }
 }
+
