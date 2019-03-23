@@ -1,50 +1,39 @@
 package typingGame.GameScreen;
 
 import javafx.event.ActionEvent;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
 import typingGame.LevelGenerator.LevelGenerator;
+import typingGame.LoadSceneButton;
 
 public class GameScreenController {
 
     public TextField inputBox;
     public TextField levelBox;
-    private int difficultyLevel;
-    private int round = 1;
-    private  LevelGenerator generator = new LevelGenerator();
+    public static String userInput;
+    public Button submitButton;
+    public BorderPane screenController;
+    public Label timerLabel;
 
-    public void setLevel(){
-       String level = generator.generateLevel(difficultyLevel, round);
+    public void setLevel(String level){
+
         levelBox.setText(level);
+        inputBox.setText(null);
     }
+
 
     public void submitInput(ActionEvent actionEvent) {
-        //stopTimer();
-        checkInput();
+        System.out.println("test");
 
-        if (round > difficultyLevel + 2) {
-            System.out.println("You win");
-            round = 1;
-            difficultyLevel++;
-        }
-            inputBox.setText("");
-            setLevel();
+            userInput = inputBox.getText();
         }
 
 
-    private boolean checkInput()
-    {
-        if (inputBox.getText().equals(levelBox.getText()) ){
-            System.out.println("It Worked");
-            round++;
-            return true;
-        }else{
-            System.out.println("You either typed it wrong or something is wrong");
-            return false;
-        }
-    }
+    public void loadScreen(){
+        LoadSceneButton loadSceneButton = new LoadSceneButton();
+        loadSceneButton.loadScene("LevelSelect/LevelSelectMenu.fxml", screenController);
 
-    public void startGame(ActionEvent actionEvent) {
-        difficultyLevel = 1;
-       setLevel();
     }
 }
