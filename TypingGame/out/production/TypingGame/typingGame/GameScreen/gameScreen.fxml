@@ -22,6 +22,7 @@
    </center>
    <top>
       <FlowPane alignment="CENTER" hgap="10.0" prefHeight="123.0" prefWidth="631.0" BorderPane.alignment="CENTER">
+
          <children>
             <Label fx:id="timerLabel" text="10" />
             <TextField fx:id="levelBox" editable="false" prefHeight="71.0" prefWidth="367.0">
@@ -29,6 +30,7 @@
                   <Font size="26.0" />
                </font>
             </TextField>
+            <TextField fx:id="timerTextbox" prefHeight="41.0" prefWidth="70.0" text="10"  />
          </children>
       </FlowPane>
    </top>

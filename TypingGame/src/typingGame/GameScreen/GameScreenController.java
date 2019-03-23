@@ -8,8 +8,13 @@ import javafx.scene.layout.BorderPane;
 import typingGame.LevelGenerator.LevelGenerator;
 import typingGame.LoadSceneButton;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class GameScreenController {
 
+    private static int interval;
+    private static Timer timer;
     public TextField inputBox;
     public TextField levelBox;
     public static String userInput;
@@ -19,21 +24,23 @@ public class GameScreenController {
 
     public void setLevel(String level){
 
+
         levelBox.setText(level);
         inputBox.setText(null);
     }
 
 
     public void submitInput(ActionEvent actionEvent) {
+
         System.out.println("test");
 
-            userInput = inputBox.getText();
-        }
-
-
+        userInput = inputBox.getText();
+    }
     public void loadScreen(){
         LoadSceneButton loadSceneButton = new LoadSceneButton();
         loadSceneButton.loadScene("LevelSelect/LevelSelectMenu.fxml", screenController);
 
+
     }
 }
+
