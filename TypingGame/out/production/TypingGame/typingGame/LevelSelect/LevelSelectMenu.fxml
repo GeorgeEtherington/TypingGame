@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="container" prefHeight="417.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="typingGame.LevelSelect.LevelSelectMenuController">
+<BorderPane fx:id="container" prefHeight="417.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="typingGame.LevelSelect.LevelSelectMenuController">
    <top>
       <FlowPane alignment="CENTER" prefHeight="139.0" prefWidth="666.0" BorderPane.alignment="CENTER">
          <children>
@@ -20,17 +20,20 @@
       </FlowPane>
    </top>
    <bottom>
-      <FlowPane prefHeight="137.0" prefWidth="666.0" BorderPane.alignment="CENTER" />
+      <FlowPane alignment="CENTER" prefHeight="137.0" prefWidth="666.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#levelUnlimitedSelected" prefHeight="96.0" prefWidth="171.0" text="Unlimited Mode" />
+         </children></FlowPane>
    </bottom>
    <center>
       <HBox alignment="CENTER" prefHeight="167.0" prefWidth="666.0" spacing="30.0" BorderPane.alignment="CENTER">
          <children>
             <Button fx:id="level1Button" mnemonicParsing="false" onAction="#levelOneSelected" prefHeight="75.0" prefWidth="75.0" text="Level 1" />
             <Button fx:id="level2Button" mnemonicParsing="false" onAction="#levelTwoSelected" prefHeight="75.0" prefWidth="75.0" text="Level 2" />
-            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0" text="Level 3" />
-            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0" text="Level 4" />
-            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0" text="Level 5" />
-            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0" text="Level 6" />
+            <Button fx:id="level3Button" mnemonicParsing="false" onAction="#levelThreeSelected" prefHeight="75.0" prefWidth="75.0" text="Level 3" />
+            <Button fx:id="level4Button" mnemonicParsing="false" onAction="#levelFourSelected" prefHeight="75.0" prefWidth="75.0" text="Level 4" />
+            <Button fx:id="level6Button" mnemonicParsing="false" onAction="#levelFiveSelected" prefHeight="75.0" prefWidth="75.0" text="Level 5" />
+            <Button fx:id="level7Button" mnemonicParsing="false" onAction="#levelSixSelected" prefHeight="75.0" prefWidth="75.0" text="Level 6" />
          </children>
       </HBox>
    </center>

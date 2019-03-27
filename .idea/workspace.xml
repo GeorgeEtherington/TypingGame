@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelGenerator/LevelGenerator.java" line="13" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="52cce433-1222-4165-8d23-6d77be162834" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/EndScreen/EndScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/EndScreen/EndScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/Styles/StyleSheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameLoader/GameLoaderController$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameLoader/GameLoaderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameLoader/GameLoaderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameLoader/gameLoader.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameLoader/gameLoader.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameScreen/GameScreenController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameScreen/GameScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameScreen/GameScreenController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameScreen/gameScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GameScreen/gameScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GetHelp/GetHelp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/GetHelp/GetHelp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/HighScores/HighScoresController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/HighScores/highScores.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/LevelGenerator/LevelGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/LevelGenerator/LevelGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/LevelSelect/LevelSelectMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/LevelSelect/LevelSelectMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/LevelSelect/LevelSelectMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/LevelSelect/LevelSelectMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/Player/player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/mainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/out/production/TypingGame/typingGame/mainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/GameLoaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/GameLoaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/gameLoader.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/gameLoader.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/GameScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/GameScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/gameScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/gameScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/HighScoresController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/highScores.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/LevelGenerator/LevelGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/LevelGenerator/LevelGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/Player/player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypingGame/src/typingGame/mainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TypingGame/src/typingGame/mainMenu.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,103 +50,40 @@
       <FILTER>typingGame.*</FILTER>
     </SUITE>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1267779429">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fxml" value="12" />
-          <entry key="java" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="16" />
-          <entry key="XML" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="fxml" value="94" />
-          <entry key="java" value="5927" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="5927" />
-          <entry key="XML" value="94" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/GameScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelGenerator/LevelGenerator.java">
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/EndScreen/EndScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/gameScreen.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="289">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/mainMenu.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelp.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -122,23 +91,78 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/GameLoaderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="49">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#loadLevel#0;class#GameLoaderController#0" />
+                <element signature="e#1085#1122#1" />
+                <element signature="method#getInput#0;class#GameLoaderController#0" />
+                <element signature="e#1415#1535#1" />
+                <element signature="method#setUnlimited#0;class#GameLoaderController#0" />
+                <element signature="method#run#0;class#GameTask#0;class#GameLoaderController#0" />
+                <element signature="method#startTimer#0;class#GameLoaderController#0" />
+                <element signature="method#setInterval#0;class#GameLoaderController#0" />
+                <element signature="e#2486#2645#1" />
+                <element signature="method#checkInput#0;class#GameLoaderController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LoadSceneButton.java">
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelGenerator/LevelGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/gameLoader.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenu.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/gameScreen.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -150,12 +174,17 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>System</find>
+      <find>Hello</find>
+      <find>Type</find>
+      <find>a</find>
+      <find>Syste</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,31 +195,31 @@
       <list>
         <option value="$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/highScores.fxml" />
         <option value="$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/HighScoresController.java" />
-        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelp.fxml" />
         <option value="$PROJECT_DIR$/TypingGame/src/typingGame/Player/player.java" />
         <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelpController.java" />
-        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java" />
-        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenu.fxml" />
-        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java" />
-        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/LoadSceneButton.java" />
         <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/gameLoader.fxml" />
-        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/GameLoaderController.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/EndScreen/EndScreen.fxml" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/LoadSceneButton.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/mainMenu.fxml" />
         <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/GameScreenController.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/Main.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/Styles/StyleSheet.css" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/EndScreen/EndScreenController.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelp.fxml" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenu.fxml" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/LevelGenerator/LevelGenerator.java" />
+        <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/GameLoaderController.java" />
         <option value="$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/gameScreen.fxml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="549" />
-    <option name="y" value="24" />
-    <option name="width" value="1524" />
-    <option name="height" value="1290" />
+    <option name="x" value="156" />
+    <option name="y" value="-24" />
+    <option name="width" value="1085" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -200,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -233,6 +261,14 @@
               <item name="TypingGame" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="typingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="EndScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TypingGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="TypingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="typingGame" type="462c0819:PsiDirectoryNode" />
               <item name="GameLoader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,6 +278,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="typingGame" type="462c0819:PsiDirectoryNode" />
               <item name="GameScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TypingGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="TypingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="typingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="GetHelp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TypingGame" type="b2602c69:ProjectViewProjectNode" />
@@ -259,17 +303,27 @@
               <item name="typingGame" type="462c0819:PsiDirectoryNode" />
               <item name="LevelSelect" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TypingGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="TypingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="typingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553262199957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553692338164" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -277,6 +331,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\George\UniStuff\TypingGame\TypingGame\src\typingGame" />
+      <recent name="C:\Users\George\UniStuff\TypingGame\TypingGame\src\typingGame\EndScreen" />
+      <recent name="C:\Users\George\UniStuff\TypingGame\TypingGame\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,14 +385,20 @@
       <workItem from="1552565205615" duration="1096000" />
       <workItem from="1552989774905" duration="35506000" />
       <workItem from="1553338384518" duration="220000" />
+      <workItem from="1553340443226" duration="4737000" />
+      <workItem from="1553430379584" duration="7413000" />
+      <workItem from="1553511359210" duration="3456000" />
+      <workItem from="1553514850363" duration="2098000" />
+      <workItem from="1553516978891" duration="3435000" />
+      <workItem from="1553686956009" duration="4319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42932000" />
+    <option name="totallyTimeSpent" value="68390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -340,11 +407,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18351254" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1609808" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964157" visible="true" weight="0.32917705" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32502708" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964157" visible="true" weight="0.31419286" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,7 +419,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917705" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003584" side_tool="true" weight="0.08432304" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32917705" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32822758" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,58 +431,67 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.0035842294" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15197133" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964157" visible="true" weight="0.25561097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917705" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003584" side_tool="true" weight="0.08432304" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32917705" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18550107" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49964157" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32917705" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003584" side_tool="true" weight="0.08432304" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32917705" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" visible="true" weight="0.0035842294" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/highScores.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/highScores.fxml" />
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/Player/player.java" />
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/HighScoresController.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="35">
+          <caret line="2226" column="9" lean-forward="true" selection-start-line="2226" selection-start-column="9" selection-end-line="2226" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelp.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="459">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -425,46 +502,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/Player/player.java">
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/mainMenu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="408">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/HighScores/HighScoresController.java">
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/Styles/StyleSheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="2226" column="9" lean-forward="true" selection-start-line="2226" selection-start-column="9" selection-end-line="2226" selection-end-column="9" />
+        <state relative-caret-position="340">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelpController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="85">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LoadSceneButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/EndScreen/EndScreen.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="202" selection-start-line="9" selection-start-column="202" selection-end-line="9" selection-end-column="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GetHelp/GetHelp.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -472,85 +575,72 @@
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/gameLoader.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/TypingGameController.java">
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/GameScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelSelect/LevelSelectMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LevelGenerator/LevelGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/mainMenu.fxml">
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/gameLoader.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/LoadSceneButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameLoader/GameLoaderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="49">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loadLevel#0;class#GameLoaderController#0" />
+            <element signature="e#1085#1122#1" />
+            <element signature="method#getInput#0;class#GameLoaderController#0" />
+            <element signature="e#1415#1535#1" />
+            <element signature="method#setUnlimited#0;class#GameLoaderController#0" />
+            <element signature="method#run#0;class#GameTask#0;class#GameLoaderController#0" />
+            <element signature="method#startTimer#0;class#GameLoaderController#0" />
+            <element signature="method#setInterval#0;class#GameLoaderController#0" />
+            <element signature="e#2486#2645#1" />
+            <element signature="method#checkInput#0;class#GameLoaderController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/EndScreen/EndScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/GameScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TypingGame/src/typingGame/GameScreen/gameScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>

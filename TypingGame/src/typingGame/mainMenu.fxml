@@ -23,7 +23,6 @@
       <VBox alignment="CENTER" prefHeight="288.0" prefWidth="760.0" spacing="10.0" BorderPane.alignment="CENTER">
          <children>
             <Button fx:id="levelSelectButton" mnemonicParsing="false" onAction="#loadLevelSelect" prefHeight="70.0" prefWidth="125.0" text="Play Game" />
-            <Button fx:id="highscoreButton" mnemonicParsing="false" onAction="#loadHighScores" prefHeight="70.0" prefWidth="125.0" text="View Highscores" />
             <Button fx:id="helpButton" mnemonicParsing="false" onAction="#loadHelp" prefHeight="70.0" prefWidth="125.0" text="Get Help" />
          </children>
       </VBox>

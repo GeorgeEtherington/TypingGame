@@ -12,7 +12,13 @@ public class LevelGenerator {
 
       Random r = new Random();
 
-      for (int i = 0; i < round+2; i++)
+      int roundLength = round + 2;
+      if ((roundLength ) >= 10 )
+      {
+          roundLength = 9;
+      }
+
+      for (int i = 0; i < roundLength; i++)
       {
           generateRound += levelString.charAt(r.nextInt(difficultyLength));
       }
@@ -32,9 +38,11 @@ public class LevelGenerator {
                 return ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,/?!£$%^&*()");
             case 4:
                 return ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,/?!£$%^&*()-=+_@~{}[]");
-
+            case 5:
+                return ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,/?!£$%^&*()-=+_@~{}[]");
+            case 6:
+                return ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,/?!£$%^&*()-=+_@~{}[]");
             default:
-                System.out.println("Invalid Level");
                 return("");
         }
     }

@@ -14,15 +14,10 @@ public class TypingGameController {
 
     }
 
-        public void loadHighScores (ActionEvent actionEvent){
-            //loadSceneButton.loadScene("HighScores/highScores.fxml", levelSelectButton);
-
-            GameLoaderController controller = LoadSceneButton.loadScene("GameLoader/gameLoader.fxml", levelSelectButton);
-            controller.loadLevel();
-        }
-
-        public void loadHelp (ActionEvent actionEvent){
+    public void loadHelp (ActionEvent actionEvent){
         loadSceneButton.loadScene("GetHelp/getHelp.fxml", levelSelectButton);
-        }
     }
+
+}
+
 

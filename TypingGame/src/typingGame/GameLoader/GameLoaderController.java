@@ -3,6 +3,7 @@ package typingGame.GameLoader;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.scene.layout.BorderPane;
+import typingGame.EndScreen.EndScreenController;
 import typingGame.GameScreen.GameScreenController;
 import typingGame.LevelGenerator.LevelGenerator;
 import typingGame.LoadSceneButton;
@@ -11,21 +12,23 @@ import java.util.TimerTask;
 
 public class GameLoaderController {
     GameScreenController gameScreenController = new GameScreenController();
-    Task task = new Task();
-    private static Timer timer;
-    private static int interval;
+    EndScreenController endScreenController = new EndScreenController();
+    GameTask GameTask = new GameTask();
+    private boolean unlimited = false;
+    private static Timer Timer;
+    private static int TimePassed;
     public BorderPane loaderContainer;
     LevelGenerator generateLevel = new LevelGenerator();
-    public int difficulty;
-    public int round = 0;
-    public String generatedLevel;
-    public String userInputtedValue;
-
+    public int Difficulty;
+    public int Round = 0;
+    public String GeneratedLevel;
+    public String UserInputtedValue;
+    public double Score;
 
     public void loadLevel() {
-        round++;
+        Round++;
         generateRound();
-        if (round == 1) {
+        if (Round == 1) {
             startTimer();
         }
         getInput();
@@ -33,66 +36,69 @@ public class GameLoaderController {
     }
 
     public void setDifficulty(int difficultyLevel) {
-        difficulty = difficultyLevel;
+        Difficulty = difficultyLevel;
     }
 
     public void generateRound() {
-        generatedLevel = generateLevel.generateLevel(difficulty, round);
+        GeneratedLevel = generateLevel.generateLevel(Difficulty, Round);
     }
 
     public void getInput() {
-        System.out.println(round);
-        if (round < 2) {
+        if (Round == 1) {
             gameScreenController = LoadSceneButton.loadScene("GameScreen/gameScreen.fxml", loaderContainer);
         }
-        gameScreenController.setLevel(generatedLevel);
+        gameScreenController.setLevel(GeneratedLevel);
     }
 
-    public class Task extends TimerTask {
+    public void setUnlimited() {
+        unlimited = true;
+        System.out.println("test");
+    }
+
+    public class GameTask extends TimerTask {
         public void run() {
 
             Platform.runLater(() -> {
-                System.out.println(String.valueOf(setInterval()));
+                setInterval();
             });
             if (gameScreenController.userInput != null) {
-                userInputtedValue = gameScreenController.userInput;
+                UserInputtedValue = gameScreenController.userInput;
                 gameScreenController.userInput = null;
                 gameScreenController.levelBox.setText(null);
                 gameScreenController.inputBox.setText(null);
-                System.out.println(userInputtedValue);
                 checkInput();
-                interval = 10;
+                TimePassed = 10;
             }
         }
     }
         public void startTimer() {
             int delay = 1000;
             int period = 1000;
-            timer = new Timer();
+            Timer = new Timer();
 
-                interval = Integer.parseInt("10");
-
-                timer.scheduleAtFixedRate(task, delay, period);
+                TimePassed = Integer.parseInt("10");
+                Timer.scheduleAtFixedRate(GameTask, delay, period);
 
         }
 
         private final int setInterval() {
-            if (interval == 1) {
+            if (TimePassed == 1) {
               cancelTimer();
+                gameScreenController.loadScene(false, Score);
             }
-            interval--;
-            gameScreenController.timerLabel.textProperty().bind(new SimpleIntegerProperty(interval).asString());
-            return interval;
+            TimePassed--;
+            gameScreenController.timerLabel.textProperty().bind(new SimpleIntegerProperty(TimePassed).asString());
+            return TimePassed;
         }
 
         public void cancelTimer() {
-            task.cancel();
+            GameTask.cancel();
         }
 
         public void checkInput() {
         boolean missingChartrue = false;
-            String[] inputArray = userInputtedValue.split("");
-            String[] levelArray = generatedLevel.split("");
+            String[] inputArray = UserInputtedValue.split("");
+            String[] levelArray = GeneratedLevel.split("");
 
             int loopVariable = 0;
             if (levelArray.length<= inputArray.length){
@@ -108,11 +114,7 @@ public class GameLoaderController {
             int count = inputArray.length;
             for (int i = 0; i < loopVariable; i++) {
                 if (inputArray[i].equals(levelArray[i])) {
-                    System.out.println("true");
                     count--;
-                } else {
-                    System.out.println("false");
-
                 }
             }
 
@@ -122,13 +124,21 @@ public class GameLoaderController {
                 loopVariable = levelArray.length;
             }
 
-            System.out.println(Double.valueOf(count) / Double.valueOf(loopVariable) * 100.00);
-            if (round == difficulty + 2) {
-                System.out.println("you win");
+            Score = (Score +((Double.valueOf(count) / Double.valueOf(loopVariable) * 100.00)*Double.valueOf(Difficulty)*Double.valueOf(TimePassed)));
+            Platform.runLater(() -> {
+                gameScreenController.scoreLabel.textProperty().bind(new SimpleIntegerProperty((int)Math.round(Score)).asString());
+            });
+
+            if (Round == Difficulty + 2 && !unlimited ) {
                 cancelTimer();
-                gameScreenController.loadScreen();
+                if (Score <= 500.00){
+                    gameScreenController.loadScene(false, Score);
+                }
+                else {
+                    gameScreenController.loadScene(true, Score);
+                };
             } else {
-                userInputtedValue = null;
+                UserInputtedValue = null;
                 loadLevel();
             }
         }

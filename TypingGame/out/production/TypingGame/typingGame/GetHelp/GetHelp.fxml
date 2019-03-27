@@ -5,11 +5,13 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="400.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="typingGame.GetHelp.GetHelpController">
+<BorderPane prefHeight="400.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="typingGame.GetHelp.GetHelpController">
    <top>
-      <FlowPane alignment="TOP_CENTER" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <FlowPane alignment="TOP_CENTER" prefHeight="67.0" prefWidth="617.0" BorderPane.alignment="CENTER">
          <children>
             <Label text="Get Help">
                <font>
@@ -19,17 +21,30 @@
          </children>
       </FlowPane>
    </top>
-   <center>
-      <FlowPane prefHeight="104.0" prefWidth="617.0" BorderPane.alignment="CENTER" />
-   </center>
    <bottom>
-      <FlowPane alignment="BOTTOM_RIGHT" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="BOTTOM_RIGHT">
+      <HBox alignment="BOTTOM_RIGHT" prefHeight="68.0" prefWidth="617.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="MainMenuButton" mnemonicParsing="false" onAction="#loadMainMenu" text="Button" />
+            <Button fx:id="MainMenuButton" mnemonicParsing="false" onAction="#loadMainMenu" text="Main Menu" />
          </children>
-         <padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
             <Insets bottom="10.0" right="10.0" />
-         </padding>
-      </FlowPane>
+         </BorderPane.margin>
+      </HBox>
    </bottom>
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="How To Play:" />
+            <Label text="Select the level of difficulty you want to play." />
+            <Label text="The higher the difficulty, the harder the level is however more points are given " />
+            <Label text="On the game screen, you must input the text in the empty text box as fast as possible" />
+            <Label text="Upon finishing writing the text, press the submit button or the enter key" />
+            <Label text="Do this until you run out of time or beat the level" />
+            <Label text="Your final score will be given on the end screen" />
+         </children>
+      </VBox>
+   </center>
 </BorderPane>

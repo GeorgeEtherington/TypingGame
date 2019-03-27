@@ -1,0 +1,21 @@
+.root{
+    -fx-background-color: #181d30;
+
+}
+.button {
+    -fx-background-color:
+            linear-gradient(#1795ff, #000eff),
+            radial-gradient(center 50% -40%, radius 200%, #1f64ee 45%, #1f53c8 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: #1795ff;
+}
+
+.label{
+    -fx-text-fill: white;
+}
